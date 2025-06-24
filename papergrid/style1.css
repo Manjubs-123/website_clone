@@ -1,0 +1,163 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+
+}
+.head-para{
+    display: flex;
+   
+    background-color: black;
+    color: white;
+    justify-content: center;
+     padding-top:15px; 
+    padding-bottom:15px;
+    
+        font-size :15px;
+        font-style: normal;
+      border-bottom: 1px solid  rgb(58, 53, 53);
+      
+        
+
+}
+.head-menubar{
+   display: flex;
+   flex-direction: row;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.logo{
+        height: 39px;
+    width: 93px;
+    margin: 56px;
+    cursor: pointer;
+}
+.paper-grid-align{
+    width: 200px;
+  
+}
+.menu-bar{
+        flex: 5;
+    color: white;
+    cursor: pointer;
+    
+}
+.menu-bar a{
+   color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    margin-left: 20px;
+        padding-left: 20px;
+        
+}
+.menu-bar a:hover ,
+.menu-bar a:active{
+    text-decoration: underline;
+
+}
+
+.column img{
+    width: 100%;
+}
+.row{
+    margin-top: 21px;
+}
+.row::after {
+       
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+   .column {
+    margin-left: 25px;
+    float: left;
+    padding: 20px;
+    width: 28%;
+
+}
+.coverpic img{
+    margin-left: 51px;
+    width: 32%;
+    display: block;
+    box-sizing: border-box;
+    height: 500px;
+    float:left;
+    object-fit: cover;
+    padding-left: 22px;
+    padding-bottom: 70px;
+}
+.cover-pic2{
+        background-color: white;
+    float: right;
+    width: 58%;
+    height: 300;
+    justify-content: center;
+    padding-bottom: 30px;
+    align-items: flex-start;
+    margin-top: 70px;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 20px;
+}
+.about{
+    background-color: black;
+    color: white;
+    height: 46px;
+    width: 153px;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 20px;
+}
+.footer{
+   
+    width: 100%;
+    height: 30px;
+}
+
+  
+    .footer {
+        padding-top: 50px;
+  background-color: black; /* or any color */
+  margin-top: 20px;
+  padding: 10px;
+  height: 400px;
+     padding-top: 30px;
+  clear: both; /* ⬅ Ensures it starts on a new line */
+}
+.footer a{
+    color: white;
+}
+
+.footer p{
+    color: white;
+    font-size:20px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+.footer img {
+    width: 45px;
+    height: 25px;
+ 
+    padding-bottom: 40px;
+   
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;   
+  gap: 10px;              
+ margin-left: auto;    
+}
+
+.header-icons img {
+    width: 33px;
+    height: 33px;
+    object-fit: contain;
+    cursor: pointer;
+    padding-right: 55px;}
+
